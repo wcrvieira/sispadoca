@@ -22,16 +22,16 @@ namespace SisPadoca
 
         private void FrmClientes_Load(object sender, EventArgs e)
         {
-            foreach (Control ctrl in this.Controls)
+            foreach (Control controles in this.Controls)
             {
-                if (ctrl is TextBox or ComboBox
-                    or DateTimePicker or MaskedTextBox)
+                if (controles is TextBox or MaskedTextBox
+                    or ComboBox or DateTimePicker)
                 {
-                    ctrl.Enabled = false;
+                    controles.Enabled = false;
                 }
+                BtnEditar.Enabled = false;
+
             }
-            BtnEditar.Enabled = false;
-            BtnExcluir.Enabled = false;
         }
 
         private void BtnNovo_Click(object sender, EventArgs e)
