@@ -1,3 +1,5 @@
+using SisPadoca.View;
+
 namespace SisPadoca
 {
     public partial class FrmPrincipal : Form
@@ -20,8 +22,8 @@ namespace SisPadoca
 
         private void clientesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FrmClientes CadClientes = new FrmClientes();
-            CadClientes.ShowDialog();
+            using (var clientes = new FrmClientes())
+                clientes.ShowDialog();
         }
 
         private void produtosToolStripMenuItem_Click(object sender, EventArgs e)

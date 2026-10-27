@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SisPadoca")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0fb26de14f158162cb0abc0055948b83f803f092")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+83026b747b23ccef3626318cd5b87a7bc6ce2d76")]
 [assembly: System.Reflection.AssemblyProductAttribute("SisPadoca")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SisPadoca")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

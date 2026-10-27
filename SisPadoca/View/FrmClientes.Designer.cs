@@ -1,4 +1,4 @@
-﻿namespace SisPadoca
+﻿namespace SisPadoca.View
 {
     partial class FrmClientes
     {
@@ -57,6 +57,10 @@
             LblCPF = new Label();
             BtnEditar = new Button();
             TxbCidade = new TextBox();
+            dgvClientes = new DataGridView();
+            TxbBusca = new TextBox();
+            LblBusca = new Label();
+            ((System.ComponentModel.ISupportInitialize)dgvClientes).BeginInit();
             SuspendLayout();
             // 
             // BtnFechar
@@ -79,6 +83,7 @@
             BtnCancelar.TabIndex = 75;
             BtnCancelar.Text = "Cancelar";
             BtnCancelar.UseVisualStyleBackColor = true;
+            BtnCancelar.Click += btnSalvar_Click;
             // 
             // BtnExcluir
             // 
@@ -141,10 +146,11 @@
             // 
             MtbCelular.Font = new Font("Tahoma", 12F);
             MtbCelular.Location = new Point(216, 170);
-            MtbCelular.Mask = "(99) 00000-0000";
+            MtbCelular.Mask = "(00) 00000-0000";
             MtbCelular.Name = "MtbCelular";
             MtbCelular.Size = new Size(144, 27);
             MtbCelular.TabIndex = 69;
+            MtbCelular.TextMaskFormat = MaskFormat.ExcludePromptAndLiterals;
             // 
             // LblCelular
             // 
@@ -180,10 +186,11 @@
             // 
             MtbCEP.Font = new Font("Tahoma", 12F);
             MtbCEP.Location = new Point(48, 251);
-            MtbCEP.Mask = "00,000-99";
+            MtbCEP.Mask = "00000-000";
             MtbCEP.Name = "MtbCEP";
             MtbCEP.Size = new Size(148, 27);
             MtbCEP.TabIndex = 61;
+            MtbCEP.TextMaskFormat = MaskFormat.ExcludePromptAndLiterals;
             // 
             // CmbEstado
             // 
@@ -302,10 +309,11 @@
             // 
             MtbCPF.Font = new Font("Tahoma", 12F);
             MtbCPF.Location = new Point(48, 83);
-            MtbCPF.Mask = "###,###,###-##";
+            MtbCPF.Mask = "000\\.000\\.000\\-00";
             MtbCPF.Name = "MtbCPF";
             MtbCPF.Size = new Size(148, 27);
             MtbCPF.TabIndex = 54;
+            MtbCPF.TextMaskFormat = MaskFormat.ExcludePromptAndLiterals;
             // 
             // LblCPF
             // 
@@ -326,7 +334,6 @@
             BtnEditar.TabIndex = 73;
             BtnEditar.Text = "Editar";
             BtnEditar.UseVisualStyleBackColor = true;
-            BtnEditar.Click += BtnEditar_Click;
             // 
             // TxbCidade
             // 
@@ -336,12 +343,42 @@
             TxbCidade.Size = new Size(148, 27);
             TxbCidade.TabIndex = 66;
             // 
+            // dgvClientes
+            // 
+            dgvClientes.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgvClientes.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvClientes.Location = new Point(753, 128);
+            dgvClientes.Name = "dgvClientes";
+            dgvClientes.Size = new Size(479, 336);
+            dgvClientes.TabIndex = 82;
+            // 
+            // TxbBusca
+            // 
+            TxbBusca.Font = new Font("Tahoma", 12F);
+            TxbBusca.Location = new Point(753, 83);
+            TxbBusca.Name = "TxbBusca";
+            TxbBusca.Size = new Size(479, 27);
+            TxbBusca.TabIndex = 83;
+            // 
+            // LblBusca
+            // 
+            LblBusca.AutoSize = true;
+            LblBusca.Font = new Font("Tahoma", 12F);
+            LblBusca.Location = new Point(753, 52);
+            LblBusca.Name = "LblBusca";
+            LblBusca.Size = new Size(49, 19);
+            LblBusca.TabIndex = 84;
+            LblBusca.Text = "Busca";
+            // 
             // FrmClientes
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Lavender;
-            ClientSize = new Size(772, 499);
+            ClientSize = new Size(1244, 499);
+            Controls.Add(LblBusca);
+            Controls.Add(TxbBusca);
+            Controls.Add(dgvClientes);
             Controls.Add(BtnFechar);
             Controls.Add(BtnCancelar);
             Controls.Add(BtnExcluir);
@@ -374,7 +411,9 @@
             Name = "FrmClientes";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Cadastro de Clientes";
+            WindowState = FormWindowState.Maximized;
             Load += FrmClientes_Load;
+            ((System.ComponentModel.ISupportInitialize)dgvClientes).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -410,5 +449,8 @@
         private Label LblCPF;
         private Button BtnEditar;
         private TextBox TxbCidade;
+        private DataGridView dgvClientes;
+        private TextBox TxbBusca;
+        private Label LblBusca;
     }
 }
