@@ -43,6 +43,34 @@ namespace SisPadoca.Controller
             }
         }
 
+        public string Excluir(string cpf)
+        {
+            try
+            {
+                _dao.Excluir(cpf);
+                return null;
+            }
+            catch (Exception ex)
+            {
+                return "Erro ao excluir: " + ex.Message;
+            }
+        }
+
+        public string Editar(string cpf)
+        {
+            try
+            {
+                _dao.AtualizarCliente(cpf);
+                return null;
+            }
+            catch (Exception ex)
+            {
+                return "Erro ao atualizar: " + ex.Message;
+            }
+        }
+
         public DataTable Listar() => _dao.ListarTodos();
+
+        public DataTable Buscar(string nome) => _dao.BuscarPorNome(nome);
     }
 }

@@ -1,12 +1,121 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Wagner\\Desktop\\sispadoca\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4292CA49-FE23-5633-FDEA-18981D91731D}|SisPadoca\\SisPadoca.csproj|C:\\Users\\Wagner\\Desktop\\sispadoca\\sispadoca\\view\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4292CA49-FE23-5633-FDEA-18981D91731D}|SisPadoca\\SisPadoca.csproj|solutionrelative:sispadoca\\view\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4292CA49-FE23-5633-FDEA-18981D91731D}|SisPadoca\\SisPadoca.csproj|c:\\users\\wagner\\desktop\\sispadoca\\sispadoca\\view\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4292CA49-FE23-5633-FDEA-18981D91731D}|SisPadoca\\SisPadoca.csproj|solutionrelative:sispadoca\\view\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4292CA49-FE23-5633-FDEA-18981D91731D}|SisPadoca\\SisPadoca.csproj|c:\\users\\wagner\\desktop\\sispadoca\\sispadoca\\controller\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4292CA49-FE23-5633-FDEA-18981D91731D}|SisPadoca\\SisPadoca.csproj|solutionrelative:sispadoca\\controller\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4292CA49-FE23-5633-FDEA-18981D91731D}|SisPadoca\\SisPadoca.csproj|c:\\users\\wagner\\desktop\\sispadoca\\sispadoca\\model\\clientedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4292CA49-FE23-5633-FDEA-18981D91731D}|SisPadoca\\SisPadoca.csproj|solutionrelative:sispadoca\\model\\clientedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4292CA49-FE23-5633-FDEA-18981D91731D}|SisPadoca\\SisPadoca.csproj|c:\\users\\wagner\\desktop\\sispadoca\\sispadoca\\model\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4292CA49-FE23-5633-FDEA-18981D91731D}|SisPadoca\\SisPadoca.csproj|solutionrelative:sispadoca\\model\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4292CA49-FE23-5633-FDEA-18981D91731D}|SisPadoca\\SisPadoca.csproj|c:\\users\\wagner\\desktop\\sispadoca\\sispadoca\\model\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4292CA49-FE23-5633-FDEA-18981D91731D}|SisPadoca\\SisPadoca.csproj|solutionrelative:sispadoca\\model\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Connection.cs",
+              "DocumentMoniker": "C:\\Users\\Wagner\\Desktop\\sispadoca\\SisPadoca\\Model\\Connection.cs",
+              "RelativeDocumentMoniker": "SisPadoca\\Model\\Connection.cs",
+              "ToolTip": "C:\\Users\\Wagner\\Desktop\\sispadoca\\SisPadoca\\Model\\Connection.cs",
+              "RelativeToolTip": "SisPadoca\\Model\\Connection.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-02T23:06:28.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmClientes.cs",
+              "DocumentMoniker": "C:\\Users\\Wagner\\Desktop\\sispadoca\\SisPadoca\\View\\FrmClientes.cs",
+              "RelativeDocumentMoniker": "SisPadoca\\View\\FrmClientes.cs",
+              "ToolTip": "C:\\Users\\Wagner\\Desktop\\sispadoca\\SisPadoca\\View\\FrmClientes.cs",
+              "RelativeToolTip": "SisPadoca\\View\\FrmClientes.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAgwGUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T17:18:34.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmClientes.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Wagner\\Desktop\\sispadoca\\SisPadoca\\View\\FrmClientes.cs",
+              "RelativeDocumentMoniker": "SisPadoca\\View\\FrmClientes.cs",
+              "ToolTip": "C:\\Users\\Wagner\\Desktop\\sispadoca\\SisPadoca\\View\\FrmClientes.cs [Projeto]",
+              "RelativeToolTip": "SisPadoca\\View\\FrmClientes.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T17:18:27.819Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\Wagner\\Desktop\\sispadoca\\SisPadoca\\Controller\\ClienteController.cs",
+              "RelativeDocumentMoniker": "SisPadoca\\Controller\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\Wagner\\Desktop\\sispadoca\\SisPadoca\\Controller\\ClienteController.cs",
+              "RelativeToolTip": "SisPadoca\\Controller\\ClienteController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAmwEMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T17:16:10.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClienteDAO.cs",
+              "DocumentMoniker": "C:\\Users\\Wagner\\Desktop\\sispadoca\\SisPadoca\\Model\\ClienteDAO.cs",
+              "RelativeDocumentMoniker": "SisPadoca\\Model\\ClienteDAO.cs",
+              "ToolTip": "C:\\Users\\Wagner\\Desktop\\sispadoca\\SisPadoca\\Model\\ClienteDAO.cs",
+              "RelativeToolTip": "SisPadoca\\Model\\ClienteDAO.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAmwDcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T17:12:41.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\Wagner\\Desktop\\sispadoca\\SisPadoca\\Model\\Cliente.cs",
+              "RelativeDocumentMoniker": "SisPadoca\\Model\\Cliente.cs",
+              "ToolTip": "C:\\Users\\Wagner\\Desktop\\sispadoca\\SisPadoca\\Model\\Cliente.cs",
+              "RelativeToolTip": "SisPadoca\\Model\\Cliente.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAuwAwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T17:08:27.888Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

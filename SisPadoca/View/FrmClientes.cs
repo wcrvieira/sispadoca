@@ -47,15 +47,12 @@ namespace SisPadoca.View
                 CPF = MtbCPF.Text.Trim(),
                 Nome = TxbNome.Text.Trim(),
                 Sexo = CmbSexo.Text.Trim(),
-                DataNasc = Convert.ToDateTime(DtpDataNasc.Text.Trim()),                
+                Data_Nasc = Convert.ToDateTime(DtpDataNasc.Text.Trim()),
                 Celular = MtbCelular.Text,
                 Email = TxbEmail.Text.Trim(),
-                Cep = MtbCEP.Text.Trim(),
-                Endereco = TxbEndereco.Text.Trim(),
-                Bairro = TxbBairro.Text.Trim(),
+                Cep = MtbCEP.Text.Trim(),                
                 Cidade = TxbCidade.Text.Trim(),
-                Estado = CmbEstado.Text.Trim(),
-                Observacoes = TxbObservacoes.Text.Trim()
+                Estado = CmbEstado.Text.Trim()
             };
 
             string erro = _controller.Salvar(cliente);
@@ -65,9 +62,9 @@ namespace SisPadoca.View
                 MessageBox.Show(erro, "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
-                CarregarGrid();
-        }  
-       
+            CarregarGrid();
+        }
+
 
         private void btnBuscar_Click(object sender, EventArgs e)
         {
@@ -96,18 +93,59 @@ namespace SisPadoca.View
 
             MtbCPF.Focus();
             BtnExcluir.Enabled = false;
-            BtnCancelar.Enabled = true;
-            BtnCancelar.Text = "Salvar";
+            BtnEditar.Enabled = false;
+            BtnSalvar.Enabled = true;            
         }
 
         private void BtnEditar_Click(object sender, EventArgs e)
         {
-            // teste
+            
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void BtnExcluir_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(MtbCPF.Text)) return;
+
+            if (MessageBox.Show("Excluir este cliente?", "Confirmação",
+                MessageBoxButtons.YesNo, MessageBoxIcon.Question) != DialogResult.Yes) return;
+
+            string erro = _controller.Excluir(MtbCPF.Text);
+            if (erro != null)
+            {
+                MessageBox.Show(erro);
+                return;
+            }
+
+            CarregarGrid();
+            //LimparCampos();
+
+        }
+
+        private void dgvClientes_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex < 0) return;
+            var linha = dgvClientes.Rows[e.RowIndex];
+
+            if (linha != null)
+            {
+                MtbCPF.Text = linha.Cells["cpf"].Value?.ToString() ?? "";
+                TxbNome.Text = linha.Cells["nome"].Value?.ToString() ?? "";
+                CmbSexo.SelectedItem = linha.Cells["sexo"].Value?.ToString();
+
+                if (linha.Cells["data_nasc"].Value != null && linha.Cells["data_nasc"].Value != DBNull.Value)
+                    DtpDataNasc.Value = Convert.ToDateTime(linha.Cells["data_nasc"].Value);
+
+                MtbCelular.Text = linha.Cells["celular"].Value?.ToString() ?? "";
+                TxbEmail.Text = linha.Cells["email"].Value?.ToString() ?? "";
+                MtbCEP.Text = linha.Cells["cep"].Value?.ToString() ?? "";
+                TxbCidade.Text = linha.Cells["cidade"].Value?.ToString() ?? "";
+                CmbEstado.Text = linha.Cells["estado"].Value?.ToString() ?? "";                
+            }
         }
     }
 }
