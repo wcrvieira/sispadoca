@@ -32,7 +32,12 @@ namespace SisPadoca
             FrmProdutos CadProdutos = new FrmProdutos();
             CadProdutos.StartPosition = FormStartPosition.CenterScreen;
             // CadProdutos.WindowState = FormWindowState.Maximized;
-            CadProdutos.ShowDialog();            
+            CadProdutos.ShowDialog();
+        }
+
+        private void FrmPrincipal_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

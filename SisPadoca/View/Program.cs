@@ -1,3 +1,5 @@
+using SisPadoca.View;
+
 namespace SisPadoca
 {
     internal static class Program
@@ -11,6 +13,11 @@ namespace SisPadoca
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
+
+            FrmSplash splash = new FrmSplash();
+
+            splash.ShowDialog();
+
             Application.Run(new FrmPrincipal());
         }
     }

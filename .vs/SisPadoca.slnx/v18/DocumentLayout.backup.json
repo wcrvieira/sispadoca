@@ -3,20 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\Wagner\\Desktop\\sispadoca\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4292CA49-FE23-5633-FDEA-18981D91731D}|SisPadoca\\SisPadoca.csproj|C:\\Users\\Wagner\\Desktop\\sispadoca\\sispadoca\\view\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4292CA49-FE23-5633-FDEA-18981D91731D}|SisPadoca\\SisPadoca.csproj|solutionrelative:sispadoca\\view\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{4292CA49-FE23-5633-FDEA-18981D91731D}|SisPadoca\\SisPadoca.csproj|c:\\users\\wagner\\desktop\\sispadoca\\sispadoca\\view\\frmclientes.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4292CA49-FE23-5633-FDEA-18981D91731D}|SisPadoca\\SisPadoca.csproj|solutionrelative:sispadoca\\view\\frmclientes.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4292CA49-FE23-5633-FDEA-18981D91731D}|SisPadoca\\SisPadoca.csproj|c:\\users\\wagner\\desktop\\sispadoca\\sispadoca\\view\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4292CA49-FE23-5633-FDEA-18981D91731D}|SisPadoca\\SisPadoca.csproj|solutionrelative:sispadoca\\view\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4292CA49-FE23-5633-FDEA-18981D91731D}|SisPadoca\\SisPadoca.csproj|c:\\users\\wagner\\desktop\\sispadoca\\sispadoca\\controller\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4292CA49-FE23-5633-FDEA-18981D91731D}|SisPadoca\\SisPadoca.csproj|solutionrelative:sispadoca\\controller\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4292CA49-FE23-5633-FDEA-18981D91731D}|SisPadoca\\SisPadoca.csproj|C:\\Users\\Wagner\\Desktop\\sispadoca\\sispadoca\\view\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4292CA49-FE23-5633-FDEA-18981D91731D}|SisPadoca\\SisPadoca.csproj|solutionrelative:sispadoca\\view\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4292CA49-FE23-5633-FDEA-18981D91731D}|SisPadoca\\SisPadoca.csproj|c:\\users\\wagner\\desktop\\sispadoca\\sispadoca\\model\\clientedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4292CA49-FE23-5633-FDEA-18981D91731D}|SisPadoca\\SisPadoca.csproj|solutionrelative:sispadoca\\model\\clientedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4292CA49-FE23-5633-FDEA-18981D91731D}|SisPadoca\\SisPadoca.csproj|c:\\users\\wagner\\desktop\\sispadoca\\sispadoca\\controller\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4292CA49-FE23-5633-FDEA-18981D91731D}|SisPadoca\\SisPadoca.csproj|solutionrelative:sispadoca\\controller\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4292CA49-FE23-5633-FDEA-18981D91731D}|SisPadoca\\SisPadoca.csproj|c:\\users\\wagner\\desktop\\sispadoca\\sispadoca\\view\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4292CA49-FE23-5633-FDEA-18981D91731D}|SisPadoca\\SisPadoca.csproj|solutionrelative:sispadoca\\view\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4292CA49-FE23-5633-FDEA-18981D91731D}|SisPadoca\\SisPadoca.csproj|c:\\users\\wagner\\desktop\\sispadoca\\sispadoca\\view\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4292CA49-FE23-5633-FDEA-18981D91731D}|SisPadoca\\SisPadoca.csproj|solutionrelative:sispadoca\\view\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4292CA49-FE23-5633-FDEA-18981D91731D}|SisPadoca\\SisPadoca.csproj|c:\\users\\wagner\\desktop\\sispadoca\\sispadoca\\view\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4292CA49-FE23-5633-FDEA-18981D91731D}|SisPadoca\\SisPadoca.csproj|solutionrelative:sispadoca\\view\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4292CA49-FE23-5633-FDEA-18981D91731D}|SisPadoca\\SisPadoca.csproj|c:\\users\\wagner\\desktop\\sispadoca\\sispadoca\\view\\frmsplash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4292CA49-FE23-5633-FDEA-18981D91731D}|SisPadoca\\SisPadoca.csproj|solutionrelative:sispadoca\\view\\frmsplash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4292CA49-FE23-5633-FDEA-18981D91731D}|SisPadoca\\SisPadoca.csproj|c:\\users\\wagner\\desktop\\sispadoca\\sispadoca\\view\\frmsplash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4292CA49-FE23-5633-FDEA-18981D91731D}|SisPadoca\\SisPadoca.csproj|solutionrelative:sispadoca\\view\\frmsplash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4292CA49-FE23-5633-FDEA-18981D91731D}|SisPadoca\\SisPadoca.csproj|c:\\users\\wagner\\desktop\\sispadoca\\sispadoca\\model\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,11 +58,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "FrmClientes.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Wagner\\Desktop\\sispadoca\\SisPadoca\\View\\FrmClientes.Designer.cs",
+              "RelativeDocumentMoniker": "SisPadoca\\View\\FrmClientes.Designer.cs",
+              "ToolTip": "C:\\Users\\Wagner\\Desktop\\sispadoca\\SisPadoca\\View\\FrmClientes.Designer.cs",
+              "RelativeToolTip": "SisPadoca\\View\\FrmClientes.Designer.cs",
+              "ViewState": "AgIAAAYBAAAAAAAAAAAAAAsBAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T00:12:05.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FrmPrincipal.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Wagner\\Desktop\\sispadoca\\SisPadoca\\View\\FrmPrincipal.cs",
+              "RelativeDocumentMoniker": "SisPadoca\\View\\FrmPrincipal.cs",
+              "ToolTip": "C:\\Users\\Wagner\\Desktop\\sispadoca\\SisPadoca\\View\\FrmPrincipal.cs [Projeto]",
+              "RelativeToolTip": "SisPadoca\\View\\FrmPrincipal.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-16T23:29:04.277Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Connection.cs",
               "DocumentMoniker": "C:\\Users\\Wagner\\Desktop\\sispadoca\\SisPadoca\\Model\\Connection.cs",
               "RelativeDocumentMoniker": "SisPadoca\\Model\\Connection.cs",
@@ -46,8 +95,7 @@
               "RelativeToolTip": "SisPadoca\\Model\\Connection.cs",
               "ViewState": "AgIAAEsAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-02T23:06:28.827Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T23:06:28.827Z"
             },
             {
               "$type": "Document",
@@ -57,14 +105,14 @@
               "RelativeDocumentMoniker": "SisPadoca\\View\\FrmClientes.cs",
               "ToolTip": "C:\\Users\\Wagner\\Desktop\\sispadoca\\SisPadoca\\View\\FrmClientes.cs",
               "RelativeToolTip": "SisPadoca\\View\\FrmClientes.cs",
-              "ViewState": "AgIAAHUAAAAAAAAAAAAgwGUAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAAAJQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-27T17:18:34.359Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "FrmClientes.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\Wagner\\Desktop\\sispadoca\\SisPadoca\\View\\FrmClientes.cs",
               "RelativeDocumentMoniker": "SisPadoca\\View\\FrmClientes.cs",
@@ -76,15 +124,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ClienteController.cs",
               "DocumentMoniker": "C:\\Users\\Wagner\\Desktop\\sispadoca\\SisPadoca\\Controller\\ClienteController.cs",
               "RelativeDocumentMoniker": "SisPadoca\\Controller\\ClienteController.cs",
-              "ToolTip": "C:\\Users\\Wagner\\Desktop\\sispadoca\\SisPadoca\\Controller\\ClienteController.cs",
-              "RelativeToolTip": "SisPadoca\\Controller\\ClienteController.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAmwEMAAAApAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Wagner\\Desktop\\sispadoca\\SisPadoca\\Controller\\ClienteController.cs*",
+              "RelativeToolTip": "SisPadoca\\Controller\\ClienteController.cs*",
+              "ViewState": "AgIAADsAAAAAAAAAAAAcwEUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-27T17:16:10.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FrmPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\Wagner\\Desktop\\sispadoca\\SisPadoca\\View\\FrmPrincipal.cs",
+              "RelativeDocumentMoniker": "SisPadoca\\View\\FrmPrincipal.cs",
+              "ToolTip": "C:\\Users\\Wagner\\Desktop\\sispadoca\\SisPadoca\\View\\FrmPrincipal.cs",
+              "RelativeToolTip": "SisPadoca\\View\\FrmPrincipal.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAqwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-16T23:29:07.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Wagner\\Desktop\\sispadoca\\SisPadoca\\View\\Program.cs",
+              "RelativeDocumentMoniker": "SisPadoca\\View\\Program.cs",
+              "ToolTip": "C:\\Users\\Wagner\\Desktop\\sispadoca\\SisPadoca\\View\\Program.cs",
+              "RelativeToolTip": "SisPadoca\\View\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wAoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-16T23:29:32.901Z",
               "EditorCaption": ""
             },
             {
@@ -93,16 +167,41 @@
               "Title": "ClienteDAO.cs",
               "DocumentMoniker": "C:\\Users\\Wagner\\Desktop\\sispadoca\\SisPadoca\\Model\\ClienteDAO.cs",
               "RelativeDocumentMoniker": "SisPadoca\\Model\\ClienteDAO.cs",
-              "ToolTip": "C:\\Users\\Wagner\\Desktop\\sispadoca\\SisPadoca\\Model\\ClienteDAO.cs",
-              "RelativeToolTip": "SisPadoca\\Model\\ClienteDAO.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAmwDcAAAAzAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Wagner\\Desktop\\sispadoca\\SisPadoca\\Model\\ClienteDAO.cs*",
+              "RelativeToolTip": "SisPadoca\\Model\\ClienteDAO.cs*",
+              "ViewState": "AgIAADoAAAAAAAAAAAA6wEEAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-27T17:12:41.686Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
+              "Title": "FrmSplash.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Wagner\\Desktop\\sispadoca\\SisPadoca\\View\\FrmSplash.cs",
+              "RelativeDocumentMoniker": "SisPadoca\\View\\FrmSplash.cs",
+              "ToolTip": "C:\\Users\\Wagner\\Desktop\\sispadoca\\SisPadoca\\View\\FrmSplash.cs [Projeto]",
+              "RelativeToolTip": "SisPadoca\\View\\FrmSplash.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-16T23:18:50.558Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FrmSplash.cs",
+              "DocumentMoniker": "C:\\Users\\Wagner\\Desktop\\sispadoca\\SisPadoca\\View\\FrmSplash.cs",
+              "RelativeDocumentMoniker": "SisPadoca\\View\\FrmSplash.cs",
+              "ToolTip": "C:\\Users\\Wagner\\Desktop\\sispadoca\\SisPadoca\\View\\FrmSplash.cs",
+              "RelativeToolTip": "SisPadoca\\View\\FrmSplash.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAowDgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-16T23:24:08.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Cliente.cs",
               "DocumentMoniker": "C:\\Users\\Wagner\\Desktop\\sispadoca\\SisPadoca\\Model\\Cliente.cs",
               "RelativeDocumentMoniker": "SisPadoca\\Model\\Cliente.cs",
@@ -110,8 +209,7 @@
               "RelativeToolTip": "SisPadoca\\Model\\Cliente.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAuwAwAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-27T17:08:27.888Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-27T17:08:27.888Z"
             }
           ]
         }
